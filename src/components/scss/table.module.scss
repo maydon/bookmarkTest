@@ -1,0 +1,37 @@
+$table-horizontal: 15px;
+$row-height: 44px;
+
+.container {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  position: relative;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.table {
+  width: 100%;
+  border-spacing: 0;
+  padding: 30px;
+  min-width: min-content;
+}
+
+.th {
+  padding: 0 $table-horizontal;
+  text-align: left;
+  font-size: 16px;
+  height: $row-height;
+  border-bottom: 1px solid rgba($color: #000, $alpha: 0.3);
+}
+
+.tableRow {
+  outline: 0;
+}
+
+.td {
+  padding: 0 $table-horizontal;
+  font-size: 14px;
+  height: $row-height;
+  white-space: nowrap;
+}

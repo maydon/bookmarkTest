@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+.tags {
+  margin-top: 14px;
+}
+
+.submit {
+  margin-top: 22px;
+}

@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.label {
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+.error {
+  color: #f04747;
+}
+
+.separator {
+  margin: 0 8px;
+}
+
+.errorText {
+  font-style: italic;
+}
+
+.input {
+  height: 44px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 1px solid rgb(118, 118, 118);
+  border-radius: 4px;
+  &:focus {
+    outline: none;
+  }
+}
